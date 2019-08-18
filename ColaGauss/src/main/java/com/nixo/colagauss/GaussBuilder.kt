@@ -30,11 +30,11 @@ class GaussBuilder (val context: Context){
 
     fun url(@NonNull url:String):GaussBuilder{
         var find = regex.find(url)
-        if(find != null){
+//        if(find != null){
             this.url = url
-        }else{
-            throw Exception("This is Not be URL.")
-        }
+//        }else{
+//            throw Exception("This is Not be URL.")
+//        }
 
         return this
     }
