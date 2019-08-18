@@ -39,9 +39,9 @@ class GaussBuilder (val context: Context){
         return this
     }
 
-    fun resources(path : Int){
+    fun resources(path : Int):GaussBuilder{
         bitmap = BitmapFactory.decodeResource(context.resources, path)
-
+        return this
     }
 
     suspend fun asBitmap()= when(tag){
