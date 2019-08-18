@@ -35,7 +35,7 @@ class GaussBuilder (val context: Context){
 //        }else{
 //            throw Exception("This is Not be URL.")
 //        }
-
+//。
         return this
     }
 
